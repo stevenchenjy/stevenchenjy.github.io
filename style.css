@@ -68,12 +68,6 @@ blockquote {font-family:var(--serif);font-size:25px;line-height:1.4;margin:24px 
 .project-row p {font-size:var(--summary-size);line-height:1.55}
 .project-row .tech {font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:14px;letter-spacing:.03em;margin-top:14px}
 .project-row .text-link {color:var(--rust);margin-top:18px}
-.site-footer {border-top:1px solid var(--rule);padding:28px 0 32px;display:flex;justify-content:space-between;gap:24px;align-items:flex-start}
-.footer-name {font-family:var(--serif);font-size:20px}
-.site-footer>div {display:flex;gap:28px;flex-wrap:wrap;justify-content:flex-end}
-.site-footer .text-link {font-size:14px;color:var(--rust);border:0}
-.site-footer .arrow {display:none}
-.copyright {width:100%;text-align:right;font-size:12px;color:#5d6e61}
 .reader {max-width:850px;padding-top:48px}
 .reader>.text-link {font-size:15px}
 .reader-heading {padding-block:48px 38px;border-bottom:1px solid var(--rule)}
@@ -89,7 +83,6 @@ blockquote {font-family:var(--serif);font-size:25px;line-height:1.4;margin:24px 
 .references summary {cursor:pointer;font-size:17px}
 .references li {margin-bottom:16px}
 .reader-end {border-top:1px solid var(--rule);padding:26px 0 72px;display:flex;gap:36px}
-.reader~.site-footer {max-width:1280px}
 .essay-figure {margin:36px 0 42px;break-inside:avoid}
 .essay-figure img {display:block;width:100%;height:auto;background:#fff;border:1px solid var(--rule)}
 .essay-figure figcaption {font-family:var(--sans);font-size:14px;line-height:1.6;color:var(--muted);margin-top:12px}
@@ -148,9 +141,6 @@ blockquote {font-family:var(--serif);font-size:25px;line-height:1.4;margin:24px 
   .authors {margin-top:12px;font-size:13px}
   .project-row {grid-template-columns:1fr;gap:18px;padding-block:26px}
   .project-row .text-link {font-size:15px}
-  .site-footer {padding-block:24px;flex-direction:column;gap:18px}
-  .site-footer>div {justify-content:flex-start;gap:20px}
-  .copyright {text-align:left}
   .reader {padding-top:28px}
   .reader-heading {padding-block:32px 28px}
   .reader-heading h1 {font-size:clamp(36px,6.2vw,43px)}
@@ -166,7 +156,7 @@ blockquote {font-family:var(--serif);font-size:25px;line-height:1.4;margin:24px 
   .text-link .arrow {transition:none}
 }
 @media print {
-  nav,.skip-link,.reader-end,.site-footer {display:none}
+  nav,.skip-link,.reader-end {display:none}
   .wrap {width:100%;max-width:100%}
   body {background:white;color:black}
   .reader {padding-top:0}
