@@ -13,3 +13,5 @@
 @media(max-width:760px){.writing-context{font-size:16px;margin-bottom:30px}.piece-description{font-size:15px}.research-heading h2{font-size:40px}.research-heading .section-heading{gap:18px}}
 
 .publication-venue{font-size:14px;line-height:1.55;color:#526559;margin-top:12px}.recognition{font-size:14px;line-height:1.55;color:var(--rust);margin-top:18px}
+
+.essay-figure{margin:36px 0 42px;break-inside:avoid}.essay-figure img{display:block;width:100%;height:auto;background:#fff;border:1px solid var(--rule)}.essay-figure figcaption{font-family:var(--sans);font-size:14px;line-height:1.6;color:#526559;margin-top:12px}.essay-figure>.text-link{font-family:var(--sans);font-size:14px;color:var(--rust);margin-top:10px}
