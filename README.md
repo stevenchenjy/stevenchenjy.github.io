@@ -2,7 +2,7 @@
 
 [Visit the website](https://stevenchenjy.github.io/)
 
-A place for my research, essays, poetry, personal prose, and projects. Research entries identify publication venues, conference presentations and a policy-paper submission. The writing collection includes an essay on politeness toward conversational AI, a poem and two short prose pieces from the Kenyon Review Young Writers Workshop, a creative writing program. Each piece has a short introduction to its form and subject, and the projects section links to my project repositories.
+A place for my research, essays, poetry, personal prose, and projects. Research entries identify publication venues, conference presentations and a policy-paper submission. The writing collection includes an essay on politeness toward conversational AI, a poem and two short prose pieces from the Kenyon Review Young Writers Workshop, a creative writing program. Each piece has consistent genre and topic labels, with dates, reading time and draft status shown separately. Section and entry titles follow a shared responsive type scale. Project descriptions explain their functions and link to the repositories.
 
 ## Run locally
 
