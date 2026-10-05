@@ -16,7 +16,7 @@ Open `http://localhost:8000`. Edit `index.html` for the home page, `writing/` fo
 
 ## Publishing
 
-GitHub Pages serves the root of the `main` branch at `https://stevenchenjy.github.io/`. The `.nojekyll` file keeps the site as plain static files. Update canonical URLs, `robots.txt`, and `sitemap.xml` together if the domain changes.
+GitHub Pages serves the root of the `main` branch at `https://stevenchenjy.github.io/`. The `.nojekyll` file keeps the site as plain static files. Update canonical URLs, `robots.txt`, and `sitemap.xml` together if the domain changes. After changing `style.css`, refresh its `v` query value in all five HTML stylesheet links so returning visitors receive the updated layout.
 
 ## Content notes
 
