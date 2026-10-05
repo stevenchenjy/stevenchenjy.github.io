@@ -2,7 +2,7 @@
 
 [Visit the website](https://stevenchenjy.github.io/)
 
-A place for my essays, poetry, research, code, and interests beyond the desk. Writing comes first: the site includes an essay on politeness toward conversational AI, a poem from my Kenyon notebook, and two workshop sketches. Research entries distinguish published work from manuscripts and drafts, and the code section links to my project repositories.
+A place for my research, essays, poetry, personal prose, and code. Research entries distinguish published work from manuscripts and drafts. The writing collection includes an essay on politeness toward conversational AI, a poem and two short prose pieces from the Kenyon Review Young Writers Workshop, a creative writing program. Each piece has a short introduction to its form and subject, and the code section links to my project repositories.
 
 ## Run locally
 
