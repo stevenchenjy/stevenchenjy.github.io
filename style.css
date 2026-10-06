@@ -30,7 +30,8 @@ nav a:hover {text-decoration:underline;text-underline-offset:7px}
 .hero-deck {font-family:var(--serif);font-size:32px;line-height:1.18;letter-spacing:-.015em;margin-top:28px;max-width:750px}
 .hero-copy {max-width:715px;font-size:18px;line-height:1.55;margin-top:22px}
 .hero-copy p+p {margin-top:16px}
-.hero-portrait img {display:block;width:100%;height:480px;object-fit:cover;object-position:38% 50%}
+.portrait-frame {position:relative;height:480px;overflow:hidden}
+.hero-portrait img {position:absolute;top:0;left:0;display:block;width:100%;height:150%;object-fit:cover;object-position:38% 0}
 figcaption {font-size:14px;line-height:1.55;color:var(--muted);margin-top:10px}
 .text-link {display:inline-flex;align-items:center;gap:16px;border-bottom:1px solid currentColor;font-size:16px;line-height:1.6;padding-bottom:3px}
 .text-link .arrow {transition:transform .18s ease}
@@ -123,7 +124,7 @@ blockquote {font-family:var(--serif);font-size:25px;line-height:1.4;margin:24px 
   .hero h1 {font-size:100px}
   .hero-deck {font-size:27px}
   .hero-copy {font-size:17px}
-  .hero-portrait img {height:400px}
+  .portrait-frame {height:400px}
   .begin-links>a {font-size:31px;gap:10px;padding-right:16px}
   .begin-links>a+a {padding-left:16px}
   .community-grid {gap:34px}
@@ -150,7 +151,7 @@ blockquote {font-family:var(--serif);font-size:25px;line-height:1.4;margin:24px 
   .hero h1 {font-size:clamp(88px,23vw,110px);line-height:.88}
   .hero h1 {order:0}
   .hero-portrait {order:1}
-  .hero-portrait img {height:auto;aspect-ratio:4/3;object-position:38% 50%}
+  .portrait-frame {height:auto;aspect-ratio:4/3}
   .hero-deck {order:2;font-size:29px;margin-top:0}
   .hero-copy {order:3;font-size:17px;line-height:1.55;margin-top:0}
   .begin {order:4;margin-top:8px;padding-top:20px}
