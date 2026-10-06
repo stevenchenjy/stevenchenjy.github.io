@@ -83,6 +83,7 @@ blockquote {font-family:var(--serif);font-size:25px;line-height:1.4;margin:24px 
 .sports-grid {display:grid;grid-template-columns:1fr 1fr;gap:64px}
 .sports-grid .story-description {min-height:53px}
 .sports-photo {max-width:360px}
+.sports-grid .hiking-story .story-description,.sports-grid .soccer-story .story-description {min-height:0}
 .fencing-photo img {aspect-ratio:5/6;object-fit:cover;object-position:65% center}
 .art-collection {border-top:1px solid var(--rule);padding-top:32px;margin-top:48px}
 .gallery-instruction {font-size:14px;line-height:1.55;color:var(--muted);margin-top:12px}
