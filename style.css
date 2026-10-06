@@ -81,9 +81,7 @@ blockquote {font-family:var(--serif);font-size:25px;line-height:1.4;margin:24px 
 .photo-story img {display:block;width:100%;height:auto}
 .photo-story>.text-link {color:var(--rust);margin-top:24px}
 .sports-grid {display:grid;grid-template-columns:1fr 1fr;gap:64px}
-.sports-grid .story-description {min-height:53px}
 .sports-photo {max-width:360px}
-.sports-grid .hiking-story .story-description,.sports-grid .soccer-story .story-description {min-height:0}
 .fencing-photo img {aspect-ratio:5/6;object-fit:cover;object-position:65% center}
 .art-collection {border-top:1px solid var(--rule);padding-top:32px;margin-top:48px}
 .gallery-instruction {font-size:14px;line-height:1.55;color:var(--muted);margin-top:12px}
@@ -181,7 +179,6 @@ blockquote {font-family:var(--serif);font-size:25px;line-height:1.4;margin:24px 
   .community-grid,.sports-grid {grid-template-columns:1fr;gap:36px}
   .photo-story figure {margin-top:20px}
   .story-description {margin-top:16px}
-  .sports-grid .story-description {min-height:0}
   .art-collection {margin-top:36px;padding-top:28px}
   .art-gallery {grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 18px}
   .art-image-link {height:260px}
