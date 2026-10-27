@@ -78,6 +78,9 @@ blockquote {font-family:var(--serif);font-size:25px;line-height:1.4;margin:24px 
 .project-row .tech {font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:14px;letter-spacing:.03em;margin-top:14px}
 .project-row .text-link {color:var(--rust);margin-top:18px}
 .community-grid {display:grid;grid-template-columns:1.5fr 1fr;gap:48px}
+.community-activity {grid-column:1/-1}
+.community-activity>.story-description {max-width:900px}
+.community-photos {display:grid;grid-template-columns:1.5fr 1fr;gap:48px}
 .photo-story {min-width:0}
 .story-description {font-size:var(--summary-size);line-height:1.55;color:var(--muted);margin-top:18px;max-width:650px}
 .photo-story figure {margin-top:24px}
@@ -127,7 +130,7 @@ blockquote {font-family:var(--serif);font-size:25px;line-height:1.4;margin:24px 
   .hero-copy {font-size:17px}
   .begin-links>a {font-size:31px;gap:10px;padding-right:16px}
   .begin-links>a+a {padding-left:16px}
-  .community-grid {gap:34px}
+  .community-grid,.community-photos {gap:34px}
   .sports-grid {gap:40px}
   .art-gallery {gap:20px}
   .art-image-link {height:280px}
@@ -180,6 +183,7 @@ blockquote {font-family:var(--serif);font-size:25px;line-height:1.4;margin:24px 
   .project-row {grid-template-columns:1fr;gap:18px;padding-block:26px}
   .project-row .text-link {font-size:15px}
   .community-grid,.sports-grid {grid-template-columns:1fr;gap:36px}
+  .community-photos {grid-template-columns:1fr;gap:24px}
   .photo-story figure {margin-top:20px}
   .story-description {margin-top:16px}
   .art-collection {margin-top:36px;padding-top:28px}
