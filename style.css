@@ -74,6 +74,7 @@ blockquote {font-family:var(--serif);font-size:25px;line-height:1.4;margin:24px 
 .paper-links .text-link {font-size:15px}
 .project-row {display:grid;grid-template-columns:1fr 1.2fr;gap:100px;border-top:1px solid var(--rule);padding-block:30px 34px}
 .project-row p {font-size:var(--summary-size);line-height:1.55}
+.project-row .impact-note {font-size:14px;line-height:1.55;color:var(--muted);margin-top:12px}
 .project-row .tech {font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:14px;letter-spacing:.03em;margin-top:14px}
 .project-row .text-link {color:var(--rust);margin-top:18px}
 .community-grid {display:grid;grid-template-columns:1.5fr 1fr;gap:48px}
