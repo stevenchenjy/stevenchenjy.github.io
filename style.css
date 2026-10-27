@@ -67,6 +67,7 @@ blockquote {font-family:var(--serif);font-size:25px;line-height:1.4;margin:24px 
 .authors {font-size:14px;color:var(--muted);margin-top:16px}
 .authors strong {font-weight:600;color:var(--ink)}
 .publication-venue {font-size:14px;line-height:1.55;color:var(--muted);margin-top:12px}
+.publication-venue a {text-decoration:underline;text-underline-offset:3px}
 .paper-detail {font-size:var(--summary-size);line-height:1.55}
 .paper-links {display:flex;gap:28px;flex-wrap:wrap;margin-top:22px}
 .paper-links .text-link {font-size:15px}
