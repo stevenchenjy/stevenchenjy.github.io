@@ -33,3 +33,7 @@ The Projects section combines author-reported outcomes with explicitly labeled c
 - **NHS portal:** The 50 active users were confirmed by Junyu on October 27, 2026. Two-stage review, final teacher approval, bulk approval, separate approved/pending progress, capacity-limited event sign-ups, deadlines, and waitlists are documented in the [portal repository](https://github.com/stevenchenjy/SKS-NHS-Hours) and [administrator guide](https://github.com/stevenchenjy/SKS-NHS-Hours/blob/main/docs/ADMIN_GUIDE.md).
 
 The combined Community mindfulness and English mentoring activity uses the two activity images supplied October 27, 2026. They are stored as lossless WebP files at their original dimensions with identical RGBA pixels. Descriptions and captions are brief; the separate outreach-summary screenshot is background context and is not published.
+
+## Public occupancy-study entry points
+
+The Research and Projects entries link directly to the browser replay and worked example. The site sitemap includes the overview, demo, and guide at their project Pages paths on the same host. These links make the public material discoverable; search-engine indexing and independent reuse remain separate outcomes. The project entry describes saved-output results and does not present building-load overlap as energy savings.
