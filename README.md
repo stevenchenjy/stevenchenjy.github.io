@@ -37,3 +37,5 @@ The combined Community mindfulness and English mentoring activity uses the two a
 ## Public occupancy-study entry points
 
 The Research and Projects entries link directly to the browser replay and worked example. The site sitemap includes the overview, demo, and guide at their project Pages paths on the same host. These links make the public material discoverable; search-engine indexing and independent reuse remain separate outcomes. The project entry describes saved-output results and does not present building-load overlap as energy savings.
+
+The occupancy paper has a dedicated abstract and citation page, linked from Research and included in the root sitemap. The Projects entry also links to the small offline Python replay kit.
